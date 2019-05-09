@@ -18,9 +18,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(192,192,192);
-
-    
 }
 
 .articles{
@@ -135,3 +132,50 @@ body{
     color: white;
     padding: 20px;
 }
+
+
+
+.latest-posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 400px;
+    grid-template-areas: 
+    "a1 b1 c1"; 
+    background-color: rgb(192,192,192);
+}
+
+.post-1{
+    grid-area: a1;
+    
+    padding: 30px;
+}
+
+.post-2{
+    grid-area: b1;
+    
+    padding: 30px;
+}
+
+.post-3{
+    grid-area: c1;
+    
+    padding: 30px;
+}
+.latest-posts h1{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+.latest-posts p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.latest-posts div:hover{
+    margin: -5px 0 0 -5px; 
+    box-shadow: 0 0 8px rgb(128,128,128); 
+    z-index: 10;
+}
+
