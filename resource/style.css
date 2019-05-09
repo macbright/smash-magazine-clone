@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: 150px;
+    grid-template-areas: "s s a b e j m t";
+    background-color:rgb(169,169,169);
+   
+}
+
+.smashing-title{
+    grid-area: s;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192,192,192);
+
+    
+}
+
+.articles{
+    grid-area: a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.books{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.events{
+    grid-area: e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.jobs{
+    grid-area: j;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.membership{
+    grid-area: m;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.topics{
+    grid-area: t;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.nav-bar h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
